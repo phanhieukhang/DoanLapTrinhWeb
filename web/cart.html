@@ -1,0 +1,215 @@
+<?php session_start(); ?>
+<!DOCTYPE html>
+<html>
+   <head>
+      <?php
+      include 'subpage/head.php';
+      ?>
+   </head>
+   <body>
+      <!--header-->
+      <div class="header">
+         <?php
+         include 'header.php';
+         ?>
+      </div>
+      <!---->
+      <div class="container">
+         <div class="account_grid">
+            <div class=" login-right">
+               <table  cellspacing="0" cellpadding="5">
+                <tr bgcolor="#CCCCCC">
+                    <td width="220" align="center">Image </td> 
+                    <td width="180" align="left">Description </td> 
+                    <td width="100" align="center">Quantity </td> 
+                    <td width="60" align="right">Price </td> 
+                    <td width="60" align="right">Total </td> 
+                    <td width="90"> </td>
+                </tr>
+                <tr>
+                  <td><img src="images/ip12_1.jpg" alt="ip12_1" /></td> 
+                  <td>Etiam in tellus</td> 
+                  <td align="center"><input type="text" value="1" style="width: 30px; text-align: right" /></td>
+                  <td align="right">$100 </td> 
+                  <td align="right">$100 </td>
+                  <td align="center"> <a href="#"><img src="images/remove_x.gif" alt="remove" /><br />Remove</a> </td>
+                </tr>
+                <br>
+                <tr>
+                  <td><img src="images/ip11_64gb.jpg" alt="ip11_64gb" /> </td>
+                  <td>Hendrerit justo</td> 
+                  <td align="center"><input type="text" value="1" style="width: 30px; text-align: right" />  </td>
+                  <td align="right">$40  </td>
+                  <td align="right">$40 </td>
+                  <td align="center"> <a href="#"><img src="images/remove_x.gif" alt="remove" /><br />Remove</a>  </td>
+                </tr>
+                <tr>
+                  <td colspan="3" align="right"  height="40px">Have you modified your basket? Please click here to <a href="cart.html"><strong>Update</strong></a>&nbsp;&nbsp;</td>
+                  <td align="right" style="background:#ccc; font-weight:bold"> Total </td>
+                  <td align="right" style="background:#ccc; font-weight:bold">$140 </td>
+                  <td style="background:#ccc; font-weight:bold"> </td>
+                </tr>
+               </table>
+               <div style="float:right; width: 215px; margin-top: 20px;">
+                  <div class="checkout"><a href="checkout.html" class="more">Proceed to Checkout</a></div>
+                  <div class="clearfix h20"></div>
+                  <div class="continueshopping"><a href="javascript:history.back()" class="more">Continue Shopping</a></div>
+               </div>
+            </div>
+            <div class="clearfix"> </div>
+         </div>
+         <div class="sub-cate">
+            <div class=" top-nav rsidebar span_1_of_left">
+               <h3 class="cate">Danh mục sản phẩm</h3>
+<ul class="menu">
+<li class="item1"><a href="#">Điện Thoại<img class="arrow-img" src="images/arrow1.png" alt=""/> </a>
+<ul class="cute">
+   <li class="subitem1"><a href="samsung.html">Samsung</a></li>
+   <li class="subitem2"><a href="apple.html">Apple</a></li>
+   <li class="subitem3"><a href="vsmart.html">Vsmart</a></li>
+</ul>
+</li>
+<li class="item2"><a href="#">Laptop <img class="arrow-img " src="images/arrow1.png" alt=""/></a>
+<ul class="cute">
+   <li class="subitem1"><a href="product.html">Cute Kittens </a></li>
+   <li class="subitem2"><a href="product.html">Strange Stuff </a></li>
+   <li class="subitem3"><a href="product.html">Automatic Fails </a></li>
+</ul>
+</li>
+<li class="item3"><a href="#">Phụ Kiện<img class="arrow-img img-arrow" src="images/arrow1.png" alt=""/> </a>
+<ul class="cute">
+   <li class="subitem1"><a href="loa.html">Loa </a></li>
+   <li class="subitem2"><a href="tainghe.html">Tai Nghe </a></li>
+   <li class="subitem3"><a href="sacduphong.html">Sạc Dự Phòng </a></li>
+</ul>
+</li>
+<li>
+<ul class="kid-menu">
+<li><a href="product.html">Điện Thoại Cũ</a></li>
+<li class="menu-kid-left"><a href="contact.html">Contact us</a></li>
+                  </ul>
+               </ul>
+            </div>
+            <!--initiate accordion-->
+            <script type="text/javascript">
+               $(function() {
+                   var menu_ul = $('.menu > li > ul'),
+                          menu_a  = $('.menu > li > a');
+                   menu_ul.hide();
+                   menu_a.click(function(e) {
+                       e.preventDefault();
+                       if(!$(this).hasClass('active')) {
+                           menu_a.removeClass('active');
+                           menu_ul.filter(':visible').slideUp('normal');
+                           $(this).addClass('active').next().stop(true,true).slideDown('normal');
+                       } else {
+                           $(this).removeClass('active');
+                           $(this).next().stop(true,true).slideUp('normal');
+                       }
+                   });
+               
+               });
+            </script>
+            
+            </div>
+            <a class="view-all all-product" href="product.html">VIEW ALL PRODUCTS<span> </span></a>   
+         </div>
+         <div class="clearfix"> </div>
+      </div>
+      <!---->
+      <div class="footer">
+         <div class="footer-top">
+            <div class="container">
+               <div class="latter">
+                  <h6>NEWS-LETTER</h6>
+                  <div class="sub-left-right">
+                     <form>
+                        <input type="text" value="Enter email here"onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Enter email here';}" />
+                        <input type="submit" value="SUBSCRIBE" />
+                     </form>
+                  </div>
+                  <div class="clearfix"> </div>
+               </div>
+               <div class="latter-right">
+                  <p>FOLLOW US</p>
+                  <ul class="face-in-to">
+                     <li><a href="#"><span> </span></a></li>
+                     <li><a href="#"><span class="facebook-in"> </span></a></li>
+                     <div class="clearfix"> </div>
+                  </ul>
+                  <div class="clearfix"> </div>
+               </div>
+               <div class="clearfix"> </div>
+            </div>
+         </div>
+         <div class="footer-bottom">
+            <div class="container">
+               <div class="footer-bottom-cate">
+                  <h6>CATEGORIES</h6>
+                  <ul>
+                     <li><a href="#">Curabitur sapien</a></li>
+                     <li><a href="#">Dignissim purus</a></li>
+                     <li><a href="#">Tempus pretium</a></li>
+                     <li ><a href="#">Dignissim neque</a></li>
+                     <li ><a href="#">Ornared id aliquet</a></li>
+                     <li><a href="#">Ultrices id du</a></li>
+                     <li><a href="#">Commodo sit</a></li>
+                     <li ><a href="#">Urna ac tortor sc</a></li>
+                     <li><a href="#">Ornared id aliquet</a></li>
+                     <li><a href="#">Urna ac tortor sc</a></li>
+                     <li ><a href="#">Eget nisi laoreet</a></li>
+                     <li ><a href="#">Faciisis ornare</a></li>
+                  </ul>
+               </div>
+               <div class="footer-bottom-cate bottom-grid-cat">
+                  <h6>FEATURE PROJECTS</h6>
+                  <ul>
+                     <li><a href="#">Curabitur sapien</a></li>
+                     <li><a href="#">Dignissim purus</a></li>
+                     <li><a href="#">Tempus pretium</a></li>
+                     <li ><a href="#">Dignissim neque</a></li>
+                     <li ><a href="#">Ornared id aliquet</a></li>
+                     <li><a href="#">Ultrices id du</a></li>
+                     <li><a href="#">Commodo sit</a></li>
+                  </ul>
+               </div>
+               <div class="footer-bottom-cate">
+                  <h6>TOP BRANDS</h6>
+                  <ul>
+                     <li><a href="#">Curabitur sapien</a></li>
+                     <li><a href="#">Dignissim purus</a></li>
+                     <li><a href="#">Tempus pretium</a></li>
+                     <li ><a href="#">Dignissim neque</a></li>
+                     <li ><a href="#">Ornared id aliquet</a></li>
+                     <li><a href="#">Ultrices id du</a></li>
+                     <li><a href="#">Commodo sit</a></li>
+                     <li ><a href="#">Urna ac tortor sc</a></li>
+                     <li><a href="#">Ornared id aliquet</a></li>
+                     <li><a href="#">Urna ac tortor sc</a></li>
+                     <li ><a href="#">Eget nisi laoreet</a></li>
+                     <li ><a href="#">Faciisis ornare</a></li>
+                  </ul>
+               </div>
+               <div class="footer-bottom-cate cate-bottom">
+                  <h6>OUR ADDERSS</h6>
+                  <ul>
+                     <li>Aliquam metus  dui. </li>
+                     <li>orci, ornareidquet</li>
+                     <li> ut,DUI.</li>
+                     <li >nisi, dignissim</li>
+                     <li >gravida at.</li>
+                     <li class="phone">PH : 6985792466</li>
+                     <li class="temp">
+                        <p class="footer-class">Design by <a href="http://w3layouts.com/" target="_blank">W3layouts</a> </p>
+                     </li>
+                  </ul>
+               </div>
+               <div class="clearfix"> </div>
+            </div>
+         </div>
+      </div>
+   </body>
+</html>
+
+
+

@@ -1,0 +1,58 @@
+3 link gom đâu
+link nào viết mới
+ủa mà trang nào em
+namecarr
+phải trang này ko
+dạ
+đợi thầy lấy pass
+dạ
+3 bài gom đâu
+ba
+mở bài sau khi gom
+(nhớ thêm hình ảnh nha) 
+dạ
+
+nên sửa cả url(url dài quá)
+nhớ chỉnh yoast
+ko cần keyword chỉ cẩn title + meta description(ok)
+dạ
+
+bước tiếp theo redirect 3 bài cũ vào bài mới
+setting->301 redirect
+bên trái là link cũ bên phải là link mới(redirect xong 3 bài cũ đều trỏ đến bài mới)
+
+xóa 3 bài cũ
+ok chứ
+hơi nhanh thầy
+nếu em xóa mà ko ridirect thì trang web em bị lỗi 404( lỗi phạt rất nặng)
+nên trước khi xóa phải chuyển hướng đến trang có nội dung gần nhất
+
+lại nhé
+
+bước 1 viết bài mới có url ngắn
+bước 2 copy bài đã gom vào( chỉnh seo, chỉnh hình ảnh)
+bước 3 vào setting->301 redirect tạo redirect 3 link được gom vào link bài viết mới đc tạo
+bước 4 kiểm tra xem redirect tốt chưa
+bước 5 xóa 3 bài viết cũ
+
+bước nào em chưa hiểu
+thầy làm lại bài 2 lần nữa đi ạ
+@@
+bước mấy
+làm lại từ đầu luôn ạ
+làm hoàn chỉnh ă thầy
+đợi e xíu ạ
+r ă thầy
+thầy ơi
+ok
+
+url đã ngắn nên ko cần tạo bài mới
+ok chuwabaif này đã có url tốt rồi nên ko cần tạo mới
+@ơisao
+alo
+sao em
+sao bài thầy chỉ có 2 thôi thầy
+trời, trang mới của em có url trùng với trang lam card visit hcm nên 2 cái trỏ vào là đc
+
+bài hồi nãy là trang em gom có url dài, nên thầy tạo url mới xong trỏ 3 link tới
+dạ
